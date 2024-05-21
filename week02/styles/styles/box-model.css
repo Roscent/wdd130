@@ -1,0 +1,30 @@
+.callout {
+    width: 150px;
+    margin: auto;
+    border: 2px solid royalblue aliceblue blueviolet;
+    padding: 3px;
+    background-color: blue;
+    text-color: white
+}
+
+.callout img {
+    left: 40px;
+    margin: auto;
+    border: 3px solid grey;
+    padding: 3px;
+    background-color: brown
+    width: 80px
+    height: 1px;	
+}
+
+blockquote {
+    margin: auto;
+}
+
+cite {
+    display: block;
+    top border: left;
+    top padding:backdrop
+    text alignment:content
+    size of font: 14	
+}
