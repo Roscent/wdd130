@@ -1,8 +1,16 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Sans:100,200,300,regular,500,600,700,800,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=Cambo:regular);
 :root {
-    background-color: yellowgreen;
+    background-color: goldenrod;
     color: black;
     width: fit-content;
+    nav: block;
+    position: :right;
+}
+p {
+    position: relative;
+    background-color: white;
+    width: fit-content;
+    font-size: x-large;
 }
 .link_underline {
     text-decoration: none:
@@ -10,15 +18,17 @@
 .hero img {
     position: relative;
     display: block;
-    width: 50%;
     height: auto;
 h1 {
-    position: absolute;
+    background-color: blue;
+    width: max-content;
+    font-size: xx-large;
+    position: relative;
 }
 article {
     position: absolute;
 }
-img p {
+img {
     float: right;
 }
 h2 {
