@@ -2,27 +2,24 @@
 :root {
     background-color: goldenrod;
     color: black;
-    width: fit-content;
+    width: max-content
     nav: block;
-    position: :right;
 }
 p {
     position: relative;
     background-color: white;
     width: fit-content;
     font-size: x-large;
+    display: block;
 }
 .link_underline {
     text-decoration: none:
 }
 .hero img {
     position: relative;
-    display: block;
+    display: inline-block;
     height: auto;
 h1 {
-    background-color: blue;
-    width: max-content;
-    font-size: xx-large;
     position: relative;
 }
 article {
@@ -30,8 +27,5 @@ article {
 }
 img {
     float: right;
-}
-h2 {
-    display: absolute;
 }
 }
