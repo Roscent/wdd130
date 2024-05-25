@@ -2,22 +2,18 @@
 :root {
     background-color: goldenrod;
     color: black;
-    width: max-content
-    nav: block;
 }
 p {
     position: relative;
-    background-color: white;
-    width: fit-content;
+    width: 20%;
     font-size: x-large;
-    display: block;
 }
 .link_underline {
     text-decoration: none:
 }
 .hero img {
-    position: relative;
-    display: inline-block;
+    display: block;
+    width: 10%;
     height: auto;
 h1 {
     position: relative;
