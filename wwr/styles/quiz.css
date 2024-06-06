@@ -1,3 +1,6 @@
-p {
-    color: blueviolet;
+body {
+    margin: 100px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 2px solid #000;
 }
