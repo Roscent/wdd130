@@ -1,0 +1,17 @@
+.note {
+    font-style: italic;
+    font-weight: bold;
+    color: navy;
+  }
+  
+.editorial {
+    background: rgb(255 0 0 / 0.2);
+    padding: 10px;
+  }
+#highlight {
+    width: 300px;
+    border: 1.5px solid blue;
+    text-decoration: underline;
+    background-color: greenyellow;
+    padding: 1rem;
+}  
