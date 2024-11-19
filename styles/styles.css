@@ -1,5 +1,9 @@
+:root {
+    --background-color: orange;
+    --heading-background-color: rgb(160, 42, 62);
+}
 nav {
-    background-color: darkblue;
+    background-color: var(--background-color);
     padding: 10px;
 }
 
@@ -10,7 +14,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    background-color: var(--heading-background-color);
 }
 
 main img {
