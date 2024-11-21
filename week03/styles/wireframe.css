@@ -1,0 +1,25 @@
+nav a {
+    display: block;
+    color: blue;
+    border: 1px solid green;
+}
+
+img {
+    width: 400px;
+    padding: 5px;
+    border: 3px solid blueviolet;
+}
+
+main img {
+    width: 150px;
+    padding: 1px;
+    border: 3px solid yellowgreen;
+}
+
+footer {
+    margin: 10px;
+    border-top: 3px;
+    border-style: dotted;
+    color: green;
+}
+
