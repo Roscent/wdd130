@@ -1,0 +1,32 @@
+:root {
+    background-color: rgb(43, 129, 129);
+}
+* {
+    width: 300px;
+}
+a {
+    text-decoration: none;
+    background-color: rgb(237, 232, 222);
+}
+
+img {
+    width: 200px;
+}
+footer img {
+    width: 20px;
+}
+
+nav a {
+    width: 10px;
+    color: blueviolet;
+    display: inline;
+}
+nav img {
+    
+}
+footer {
+    margin: 10px;
+    border-top: 3px;
+    border-style: dotted;
+    color: rgb(12, 45, 12);
+}
