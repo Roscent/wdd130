@@ -1,40 +1,88 @@
 :root {
-    background-color: rgb(43, 129, 129);
+    background-color: #6d721e;
 }
+
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-size: large;
+    float: block;
+}
+
+main {
+    font: 1.5em sans-serif;
+    color: #D5CFE1;
+    font-size: medium;
+}
+
 a {
-    font-size: larger;
-    font-style: oblique;
-    font-weight: 100;
-    background-color: rgb(237, 232, 222);
+    text-decoration: none;
 }
 
 img {
+    position: relative;
     display: block;
-    width: 200px;
+    width: 150px;
     padding: 10px;
+    height: auto;
 }
-footer img {
-    width: 20px;
-}
+
 
 nav a {
     width: 10px;
-    color: blueviolet;
+    color: #F4F7F5;
     display: inline;
 }
 
+.hero {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    background-color: #8a5bd6;
+    color: rgb(250, 226, 226);
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero img:first-child {
+    position: absolute;
+    top: 0;
+    left: 80%;
+    transform: translateX(-60%);
+    z-index: 1;
+    width: fit-content;
+}
+.hero img:last-child {
+    position: relative;
+    z-index: 0;
+}
+
+h1, h2, h3 {font-family: "Open+Sans", Oswald; }
+
+.h1 {
+    position: absolute;
+    display: inline;
+}
+
+article {
+    position: absolute;
+}
+
+article img {
+    float: right;
+    background-color: #F1DB4B;
+    opacity: 100%;
+}
+
 footer {
-    margin: 10px;
+    margin: 5px;
     border-top: 3px;
     border-style: dotted;
-    color: rgb(12, 45, 12);
+    color: #F1DB4B;
 }
 footer img {
     display: inline;
-    width: 30px;
-}
-main {
-    font: 1.5em sans-serif;
-    color: azure;
-    font-size: medium;
+    width: 20px;
 }
