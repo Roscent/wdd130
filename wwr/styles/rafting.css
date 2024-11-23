@@ -1,16 +1,17 @@
 :root {
     background-color: rgb(43, 129, 129);
 }
-* {
-    width: 300px;
-}
 a {
-    text-decoration: none;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: 100;
     background-color: rgb(237, 232, 222);
 }
 
 img {
+    display: block;
     width: 200px;
+    padding: 10px;
 }
 footer img {
     width: 20px;
@@ -21,12 +22,19 @@ nav a {
     color: blueviolet;
     display: inline;
 }
-nav img {
-    
-}
+
 footer {
     margin: 10px;
     border-top: 3px;
     border-style: dotted;
     color: rgb(12, 45, 12);
+}
+footer img {
+    display: inline;
+    width: 30px;
+}
+main {
+    font: 1.5em sans-serif;
+    color: azure;
+    font-size: medium;
 }
