@@ -20,12 +20,13 @@ a {
 
 img {
     position: relative;
-    display: block;
+    display: grid;
+    justify-content: center;
+    align-items: center;
     width: 150px;
     padding: 10px;
     height: auto;
 }
-
 
 nav a {
     width: 10px;
