@@ -1,5 +1,10 @@
 :root {
-    background-color: #6d721e;
+    background-color: wheat;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 p {
@@ -10,12 +15,15 @@ p {
 
 main {
     font: 1.5em sans-serif;
-    color: #D5CFE1;
+    color: black;
     font-size: medium;
+    text-align: center;
 }
 
 a {
     text-decoration: none;
+    font-weight: bold;
+    color: black;
 }
 
 img {
@@ -28,18 +36,24 @@ img {
     height: auto;
 }
 
-nav a {
-    width: 10px;
-    color: #F4F7F5;
-    display: inline;
+.logo-box img {
+    height: 60px;
+}
+
+nav {
+    background-color: goldenrod;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .hero {
     position: relative;
     text-align: center;
     padding: 10px;
-    background-color: #8a5bd6;
-    color: rgb(250, 226, 226);
+    background-color: tr;
+    color: black;
 }
 .hero img {
     display: block;
@@ -60,12 +74,32 @@ nav a {
     z-index: 0;
 }
 
-h1, h2, h3 {font-family: "Open+Sans", Oswald; }
-
-.h1 {
-    position: absolute;
-    display: inline;
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    text-align: center;
 }
+
+.image-gallery figure {
+    margin: 0;
+}
+
+.image-gallery img {
+    max-width: 150%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-gallery figcaption {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: blue;
+}
+
+h1, h2, h3 {font-family: "Open+Sans", Oswald; }
 
 article {
     position: absolute;
@@ -78,12 +112,28 @@ article img {
 }
 
 footer {
+    padding: 10px 20px;
     margin: 5px;
     border-top: 3px;
     border-style: dotted;
-    color: #F1DB4B;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+footer p {
+    margin: 0;
+}
+
+footer .socialmidia {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 footer img {
-    display: inline;
+    display: inline-block;
     width: 20px;
+    height: auto;
 }
