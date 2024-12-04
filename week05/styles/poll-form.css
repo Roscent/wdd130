@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Merriweather, Georgia, serif;
+    font-size: 1.2em;
+    color: blue;
+    background-color: aqua;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 2px solid yellow;
+    border-radius: 0.8rem;
+    background-color: goldenrod;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.2rem;
+    margin: 1rem;
+    border: 2px solid gray;
+    padding: 1rem;
+}
+
+legend {
+    padding: 1rem;
+    color: brown;
+    font-size: 1em;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+    text-align: left;
+    padding-right: 2rem;
+}
+
+input, select, textarea {
+    padding: .1rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 30px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: brown;
+    color: aquamarine;
+    border: none;
+    border-radius: .8rem;
+    padding: .10rem;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    background-color: chartreuse;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 400px;
+    text-align: center;
+    font-size: 1em;
+    color: crimson;
+    border-top: 2px solid gold;
+    border-style: dotted;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 1rem 0;
+}
