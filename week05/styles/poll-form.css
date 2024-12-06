@@ -87,7 +87,7 @@ footer {
     text-align: center;
     font-size: 1em;
     color: crimson;
-    border-top: 2px solid gold;
+    border: 8px solid gold ;
     border-style: dotted;
 }
 
