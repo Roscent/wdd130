@@ -10,7 +10,6 @@ header {
 .p {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
-    float: block;
 }
 
 main {
@@ -52,7 +51,6 @@ nav {
     position: relative;
     text-align: center;
     padding: 10px;
-    background-color: tr;
     color: black;
 }
 .hero img {
