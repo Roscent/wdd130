@@ -74,6 +74,23 @@ nav {
     z-index: 0;
 }
 
+.horizontal-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.horizontal-layout .left, .horizontal-layout .right {
+    flex: 1;
+    text-align: justify;
+}
+
+.horizontal-layout .center-image {
+    max-width: 30%;
+    height: auto;
+}
+
 .image-gallery {
     display: flex;
     justify-content: center;
@@ -88,7 +105,7 @@ nav {
 
 .image-gallery img {
     max-width: 150%;
-    height: auto;
+    height: 100px;
     display: block;
     margin: 0 auto;
 }
