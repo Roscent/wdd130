@@ -1,6 +1,7 @@
 :root {
     background-color: wheat;
 }
+
 header {
     display: flex;
     align-items: center;
@@ -8,12 +9,13 @@ header {
 }
 
 .p {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: serif;
     font-size: large;
 }
 
 main {
-    font: 1.5em sans-serif;
+    font: 1.5em;
+    font-family: sans-serif;
     color: black;
     font-size: medium;
     text-align: center;
@@ -115,7 +117,7 @@ nav {
 }
 
 h1, h2, h3 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Times;
 }
 
 article {
