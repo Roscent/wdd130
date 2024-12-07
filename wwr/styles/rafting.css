@@ -33,7 +33,7 @@ img {
     align-items: center;
     width: 150px;
     padding: 10px;
-    height: auto;
+    height: 100px;
 }
 
 .logo-box img {
@@ -116,7 +116,9 @@ nav {
     color: blue;
 }
 
-h1, h2, h3 {font-family: "Open+Sans", Oswald; }
+h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
 
 article {
     position: absolute;
@@ -124,11 +126,9 @@ article {
 
 article img {
     float: right;
-    background-color: #F1DB4B;
+    background-color: yellow;
     opacity: 100%;
 }
-
-
 
 footer {
     padding: 10px 20px;
