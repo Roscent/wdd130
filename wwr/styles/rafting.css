@@ -10,7 +10,7 @@ header {
 
 .p {
     font-family: serif;
-    font-size: large;
+    font-size: x-large;
 }
 
 main {
@@ -32,13 +32,83 @@ img {
     display: grid;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: 250px;
     padding: 10px;
+    height: 200px;
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.trip p {
+    font-family: serif;
+    font-size: x-large;
+}
+
+.trip h1, h2, h3 {
+    font-family: Impact;
+    font-size: xx-large;
+}
+
+nav ul {
+    background-color: grey;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contact img {
+    display: grid;
+}
+
+.team {
+    color: blue;
+    font-size: large;
+}
+
+.Happy-Staff {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.Happy-Staff img {
+    display: grid;
+    max-width: 250%;
     height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.Happy-Staff figcaption {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: blue;
 }
 
 .logo-box img {
-    height: 60px;
+    height: 100px;
 }
 
 nav {
@@ -59,6 +129,15 @@ nav {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.new-hero img {
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
 }
 
 .hero img:first-child {
@@ -118,15 +197,20 @@ nav {
 
 h1, h2, h3 {
     font-family: Times;
+    font-size: xx-large;
 }
 
 article {
-    position: absolute;
+    position: relative;
+    display: grid;
+    font-size: x-large;
 }
 
 article img {
     float: right;
-    background-color: yellow;
+    width: 50%;
+    height: auto;
+    background-color: black;
     opacity: 100%;
 }
 
@@ -147,12 +231,12 @@ footer p {
 
 footer .socialmidia {
     display: flex;
-    align-items: center;
+    align-items: end;
     gap: 10px;
 }
 
 footer img {
-    display: inline-block;
+    display: inline;
     width: 20px;
     height: auto;
 }
