@@ -9,9 +9,12 @@
     padding: 10px;
   }
 #highlight {
+  float: left;
     width: 300px;
-    border: 1.5px solid blue;
+    border: 1.5px solid #0011FF;
     text-decoration: underline;
     background-color: greenyellow;
-    padding: 1rem;
+    padding: 3px 10px 122px 20px;
+    
 }  
+
